@@ -9,6 +9,14 @@ import de.pa2.iot.MessageMapper;
 
 public class Client {
 	public static void main(String[] args) throws IOException, InterruptedException {
+		
+		// clear screen
+		// https://stackoverflow.com/questions/2979383/java-clear-the-console
+	    System.out.print("\033[H\033[2J");
+	    
+	    // print welcome
+	    System.out.println("audio cube client shell");
+		
 		// init mapper
 		MessageMapper.getInstance().init(CommandInputMessage.class);
 
