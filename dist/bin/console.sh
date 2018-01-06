@@ -9,7 +9,8 @@ SYSTEM_PROPERTIES="-Dapplication.home=${PARENT_DIR}"
 #SYSTEM_PROPERTIES="${SYSTEM_PROPERTIES} -Dfoo=bar"
 
 # calculate class path
-LIBS=$(find ${LIBS_DIR})
+LIBS=$(find ${LIBS_DIR}/|grep server)
+ls -la ${LIBS_DIR}/
 CLASSPATH="${CONF_DIR}";
 for LIB in $(echo ${LIBS}); do
 	if [ -f ${LIB} ]; then
