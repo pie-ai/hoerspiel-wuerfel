@@ -1,4 +1,5 @@
-<configuration debug="true" scan="true" scanPeriod="30 seconds">
+<configuration scan="true" scanPeriod="30 seconds">
+	<!-- debug="true" -->
     <!-- include file="${application.home}/conf/logback-custom.xml"/ -->
 
 	<property name="PATTERN_CONSOLE" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" />

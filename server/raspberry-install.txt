@@ -1,0 +1,8 @@
+$ apt install vlc openjdk-8-jdk
+
+
+
+see: https://learn.adafruit.com/adafruit-speaker-bonnet-for-raspberry-pi/raspberry-pi-usage
+curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
+
+fixed /boot/config.txt

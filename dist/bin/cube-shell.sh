@@ -22,5 +22,5 @@ JAVA="java"
 
 COMMAND="${JAVA} -cp ${CLASSPATH} ${SYSTEM_PROPERTIES} ${MAINCLASS}"
 cd ${PARENT_DIR}
-echo "executing: '${COMMAND}'"
+#echo "executing: '${COMMAND}'"
 ${COMMAND}
